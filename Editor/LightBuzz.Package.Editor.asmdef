@@ -1,5 +1,5 @@
 {
-    "name": "LightBuzz.Package",
+    "name": "LightBuzz.Package.Editor",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [
