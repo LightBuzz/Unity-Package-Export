@@ -27,7 +27,7 @@ namespace LightBuzz.Package
         private string _destinationFolder = string.Empty;
         private bool _isWorking = false;
 
-        [MenuItem("Window/Export Package")]
+        [MenuItem("LightBuzz/Export Package", false, -100)]
         private static void MenuItem_Export()
         {
             GetWindow<PackageExport>(false, "Package Export", true);
